@@ -8,7 +8,7 @@ def next_chord_function(current_chord_index, next_chord_index, next_chord, note_
     return next_chord_index, next_chord
 
 
-print("Insert a chord. If minor, write 'm' after the letter. We'll return the four pop chords!")
+print("Insert a chord. If minor, write 'm' after the letter. We'll return the four pop chords (flat symbols ('b') are currently not used)!")
 tonic_chord = input()
 minor_condition = False
 tonic_chord_index = 0
